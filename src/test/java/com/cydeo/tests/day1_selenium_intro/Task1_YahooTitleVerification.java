@@ -6,21 +6,24 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Task1_YahooTitleVerification {
     public static void main(String[] args) {
-      //  TC #1: Yahoo Title Verification
-      // do set up for browser driver
+        //  TC #1: Yahoo Title Verification
+        // do set up for browser driver
         WebDriverManager.chromedriver().setup();
 
         //1. OPEN  Chrome browser
         WebDriver driver = new ChromeDriver();
 
+        //make  our page  fullscreen
+        driver.manage().window().maximize();
+
         //2. Go to https://www.yahoo.com
-      driver.get("https://www.yahoo.com");
+        driver.get("https://www.yahoo.com");
+
 
         //3. Verify title:
 
 
         //Expected: Yahoo
-
 
 
     }
