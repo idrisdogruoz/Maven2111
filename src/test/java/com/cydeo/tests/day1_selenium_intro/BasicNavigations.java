@@ -11,15 +11,15 @@ public class BasicNavigations {
         WebDriverManager.chromedriver().setup();
 
         //2- Create  instance  of the Selenium WebDriver
-        // This  is the line opening  an empty browser
+        // This  is the line OPENING  an empty browser
         WebDriver driver = new ChromeDriver();
 
-        //This line will maximize the browser size
+        //This line will MAXIMIZE the browser size
         driver.manage().window().maximize();  // for  both mac  and  windows
 
         //driver.manage().window().fullscreen(); //- this one sometimes does not work for windows, so better not use it.
 
-        //3- G ot "https://www.tesla.com"
+        //3- Get "https://www.tesla.com"
         driver.get("https://www.tesla.com"); // https silersek ne olur .. ==> çalışmaz
 
 
